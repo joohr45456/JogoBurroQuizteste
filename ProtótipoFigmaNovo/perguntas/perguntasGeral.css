@@ -1,0 +1,45 @@
+body {
+    background-color: #e6e6e6;
+    font-family: 'Irish Grover', cursive; /* Fonte padrão */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* Exceção para o indicador da pergunta */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.opcao {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.opcao:hover {
+    background-color: gold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}

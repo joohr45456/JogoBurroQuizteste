@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.bloco-header {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bloco-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+#subtitulo {
+    text-align: end;
+}
+
+
+.imagem-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#bloco-inicial {
+    background: #2ecc40;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
+
+
+
+.proximo {
+    display: inline-block;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #222;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.proximo:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: #333;
+}

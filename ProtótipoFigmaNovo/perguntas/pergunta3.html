@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3° pergunta</title>
+    <!-- Fonte e CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="perguntasGeral.css" />
+</head>
+
+<body>
+    <h1>3° pergunta</h1>
+    <p>O nome desse caba aí</p>
+
+    <div class="imagem-pergunta">
+        <img src="turma-da-monica-chico-bento-01.png" alt="Imagem do Personagem Chico Bento" />
+    </div>
+
+    <div class="opcoes">
+        <div class="opcao" data-correta="false"><a href="javascript:void(0);">clorofórmio e metanoato de etila</a></div>
+        <div class="opcao" data-correta="false"><a href="javascript:void(0);">propanol e ácido propanoico</a></div>
+        <div class="opcao" data-correta="false"><a href="javascript:void(0);">Chico Bento</a></div>
+        <div class="opcao" data-correta="false"><a href="javascript:void(0);">etanamida e benzeno</a></div>
+    </div>
+
+    <!-- Botão escondido no canto -->
+    <div class="pegadinha">
+        <a href="javascript:void(0);" class="botao-pegadinha" data-correta="true">aí</a>
+    </div>
+
+    <style>
+        .imagem-pergunta {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .imagem-pergunta img {
+            max-width: 10%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .pegadinha {
+            position: absolute;
+            top: 240px; /* distância do topo */
+            left: 890px; /* distância da esquerda */
+            /* Você pode ajustar esses valores para mudar a posição */
+        }
+
+        .botao-pegadinha {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #f0f0f0;
+            text-decoration: none;
+            background-color: transparent; /* pode deixar transparente ou escolher outra cor */
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- Link para o JS externo -->
+    <script src="pergunta1.js"></script>
+</body>
+
+</html>
